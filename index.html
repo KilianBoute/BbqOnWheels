@@ -15,21 +15,21 @@
     <header class="">
         <nav class="topNav">
             <img src="images/BOWLogo.png" alt="BOW Logo" title="bowLogo" width="20%">
-            <!-- <h2>BARBECUE ON WHEELS</h2> -->
-            <div id="links">
-                <a href="#" class="navLink">ABOUT US</a> 
-                <a href="#" class="navLink">MENU</a> 
-                <a href="#" class="navLink">CONTACT US</a> 
-            </div>
+            <h3>BARBECUE ON WHEELS</h3>
+            <ul id="links">
+                <li><a href="#" class="navLink">ABOUT US</a></li> 
+                <li><a href="#" class="navLink">MENU</a></li> 
+                <li><a href="contact.html" class="navLink">CONTACT US</a></li>  
+            </ul>
             <a href="javascript:void(0);" class="icon" onclick="mobileDropdown()">
                 <i class="fa fa-bars"></i>
             </a>
         </nav>
     </header>
     <main>
-        <img src="images/homePlaceholder.png" alt="food truck" title="Our foodtruck" width="100%">
+        <img src="images/homePlaceholder.png" alt="food truck" title="Our food truck" width="100%">
         <article>
-            <p>Introducing "Barbecue on Wheels," where we roll up with the sizzle, the smoke, and the saucy goodness right to your doorstep. Our mobile barbecue food truck is your passport to a world of finger-licking, slow-smoked, and grilled perfection. Whether you're a die-hard BBQ aficionado or just looking to satisfy your craving for smoky, savory goodness, Barbecue on Wheels has you covered.</p>
+            <p>Introducing "Barbecue on Wheels", where we roll up with the sizzle, the smoke, and the saucy goodness right to your doorstep. Our mobile barbecue food truck is your passport to a world of finger-licking, slow-smoked, and grilled perfection. Whether you're a die-hard BBQ aficionado or just looking to satisfy your craving for smoky, savory goodness, Barbecue on Wheels has you covered.</p>
             <p>Prepare to embark on a journey of culinary delight as we fire up the grills and stoke the smokers to bring you a mouthwatering menu of barbecue classics. From tender, fall-off-the-bone ribs to melt-in-your-mouth pulled pork sandwiches, we've got it all. Pair it with our delectable sides like creamy coleslaw, mac and cheese, and fluffy cornbread for the ultimate BBQ experience.</p>
             <p>At Barbecue on Wheels, it's not just food; it's an experience. Get ready to savor the flavor, feel the vibe, and let the barbecue adventure begin!</p>
         </article>
@@ -41,6 +41,12 @@
 
    <!--CSS and JS here for now-->
    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
         body{
             margin: auto;
             background-color: #F6F9F1;
@@ -53,8 +59,14 @@
             background-color: #EFF1E4;
         }
 
+        .topNav h3{
+            display: none;
+        }
+
         .topNav #links{
             display: hidden;
+            list-style-type: none;
+            padding-left: 0;
         }
 
         .navLink{
@@ -84,6 +96,42 @@
         footer{
             text-align: center;
             margin: 1rem;
+        }
+
+        @media screen and (min-width: 1025px) {
+
+            .topNav{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .topNav img{
+                justify-self: flex-start;
+                width: 10%;
+                order: 0;
+                margin: 0;
+            }
+
+            .topNav h3{
+                display: block;
+                justify-self: flex-start;
+                margin-right: auto;
+                margin-left: 1rem;
+                order: 1;
+            }
+
+            .topNav #links{
+                display: flex;
+                justify-content: flex-end;
+                order: 2;
+                
+            }
+
+            .topNav .icon {
+                display: none;
+            }
+
         }
    </style>
 
