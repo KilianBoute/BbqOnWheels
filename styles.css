@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: auto;
+    background-color: #F6F9F1;
+}
+
+
+.topNav{
+    overflow: hidden;
+    position: relative;
+    padding: 1rem;
+    background-color: #EFF1E4;
+    box-shadow: 0 2px 10px -1px rgb(210, 210, 169), 0 4px 20px -2px rgb(154, 77, 77);
+}
+
+.topNav img{
+    width: 20%;
+}
+
+.topNav h3{
+    display: none;
+}
+
+.topNav #links{
+    display: hidden;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navLink{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.navLink:hover{
+    text-shadow: 0px -2px 4px #fec4c4, 0px -2px 10px rgb(193, 90, 86), 0px -10px 20px        
+     rgb(238, 255, 0), 0px -20px 40px rgb(255, 0, 0);
+    
+}
+
+
+.topNav .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10%;
+}
+
+.topNav a{
+    display: block;
+    text-decoration: none;
+    color: #E96667;
+}
+
+article{
+    margin: 1rem;
+}
+
+footer{
+    text-align: center;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 1025px) {
+
+    .topNav{
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    .topNav .logo{
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        order: 0;
+        margin-right: auto;
+    }
+
+
+    .topNav img{
+        margin: 0;
+        width: 10%;
+    }
+
+    .topNav h3{
+        display: block;
+        margin-left: 1rem;
+        margin-top: 1rem;
+       
+    }
+
+    .topNav #links{
+        display: flex;
+        text-align: right;
+        margin-top: 1rem;
+        order: 1;
+    }
+
+    .topNav .icon {
+        display: none;
+    }
+
+}
