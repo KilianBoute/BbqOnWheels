@@ -5,32 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">ABOUT US</a> |
-            <a href="#">MENU</a> |
-            <a href="#">CONTACT US</a> 
-          </nav>
+    <header class="">
+        <nav class="topNav">
+            <img src="images/BOWLogo.png" alt="BOW Logo" title="bowLogo" width="20%">
+            <!-- <h2>BARBECUE ON WHEELS</h2> -->
+            <div id="links">
+                <a href="#">ABOUT US</a> |
+                <a href="#">MENU</a> |
+                <a href="#">CONTACT US</a> 
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="mobileDropdown()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
     </header>
     <main>
-
+        <img src="images/homePlaceholder.png" alt="food truck" title="Our foodtruck" width="100%">
+        <article>
+            <p>Introducing "Barbecue on Wheels," where we roll up with the sizzle, the smoke, and the saucy goodness right to your doorstep. Our mobile barbecue food truck is your passport to a world of finger-licking, slow-smoked, and grilled perfection. Whether you're a die-hard BBQ aficionado or just looking to satisfy your craving for smoky, savory goodness, Barbecue on Wheels has you covered.</p>
+            <p>Prepare to embark on a journey of culinary delight as we fire up the grills and stoke the smokers to bring you a mouthwatering menu of barbecue classics. From tender, fall-off-the-bone ribs to melt-in-your-mouth pulled pork sandwiches, we've got it all. Pair it with our delectable sides like creamy coleslaw, mac and cheese, and fluffy cornbread for the ultimate BBQ experience.</p>
+            <p>At Barbecue on Wheels, it's not just food; it's an experience. Get ready to savor the flavor, feel the vibe, and let the barbecue adventure begin!</p>
+        </article>
     </main>
     <footer>
-        
+        <p>Barbecue on wheels &copy</p>
     </footer>
-
-
-<!-- menu -->
-
-<div class="content">
-
-    <h2>Menu</h2>
-
-
-
-</div>
-
 </body>
+
+   <!--CSS and JS here for now-->
+   <style>
+        body{
+            margin: auto;
+        }
+
+        .topNav{
+            overflow: hidden;
+            position: relative;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        #links{
+            display: hidden;
+            margin-top: 1rem;
+        }
+
+        .topNav .icon {
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 10%;
+        }
+   </style>
+
+   <script>
+       function mobileDropdown() {
+         var x = document.getElementById("links");
+         if (x.style.display === "block") {
+           x.style.display = "none";
+         } else {
+           x.style.display = "block";
+         }
+       }
+   </script>
+
+
 </html>
