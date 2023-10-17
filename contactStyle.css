@@ -5,23 +5,32 @@
 
 body {
  height: 100%;
- width: auto;
+ width: 100%;
  background: #EFF1E4;
  font-family: Arial, Helvetica, sans-serif;
  font: 25px;
 }
 
-img {
- width: 200px;
- height: 200px;
- padding: 50px;
- padding-left: 60px;
+.logo{
+ display: flex;
+ flex-direction: row;
+ align-content: flex-start;
 }
+.container {
+ width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+}
+
 
 .head1 {
  padding: 40px;
- position: relative; top: 100px;
- position: relative; left: 300px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: start;
  width: auto;
  color: #E96667;
 }
@@ -32,18 +41,7 @@ h1{
 }
 
 
-.container {
- padding: 40px;
- padding-right: 40px;
- height: auto;
- width: 100%;
- display: inline-flex;
- position: relative; top: 100px;
- position: relative; left: 100px;
- justify-content: center;
- align-items: center;
- background-color: bisque;
-}
+
 
 form {
  width: auto;
@@ -139,3 +137,12 @@ iframe {
  
 }
 
+.contact-info {
+   width: 100%;
+   display: flex;
+   flex-direction:row;
+   justify-content:center;
+   align-items: center;
+   background-color: rgb(239, 198, 124);
+
+ }
