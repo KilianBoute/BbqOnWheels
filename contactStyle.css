@@ -6,34 +6,57 @@
 body {
  height: 100%;
  width: auto;
- background: lightgray;
+ background: #EFF1E4;
  font-family: Arial, Helvetica, sans-serif;
+ font: 25px;
 }
 
-.container {
- display: inline-flex;
+.head1 {
  padding: 40px;
- height: 100%;
- width: 100%;
  position: relative; top: 400px;
+ position: relative; left: 70px;
+ width: auto;
+}
+
+h1{
+ order: -1;
+ align-items: center;
+ 
+}
+
+
+.container {
+ padding: 40px;
+ height: auto;
+ width: 100%;
+ display: inline-flex;
+ position: relative; top: 250px;
  justify-self: center;
+ align-items: center;
 }
 
 form {
  width: auto;
  padding: 20px;
+ justify-self: center;
+ align-items: flex-end;
 
+}
+
+.page {
+ display: flex;
 }
 
 
 input {
- padding: 10px;
+ padding: 20px;
  width: 300px;
  border: hidden;
  border-bottom: 2px solid black;
+ outline: none;
  background-color: none;
  align-items: baseline;
- background-color: lightgray;
+ background-color: #EFF1E4;
 }
 
 .input1, .input2, .input3{
@@ -76,16 +99,12 @@ button {
 }
 
 .maps-card {
-
  width: 25%;
  padding: 20px;
  background-color: rgb(255, 255, 255);
-}
-
-.card-body {
  display: inline-flex;
-
-
+ justify-content: center;
+ align-items: center;
 }
 
 iframe {
@@ -95,6 +114,13 @@ iframe {
  align-items: center;
 }
 
-h3 {
- color: rgb(0, 0, 0);
+.footer-card {
+ display: inline-flex;
+ height: 200px;
+ width: 100%;
+ background-color: white;
+ position: relative; bottom: -310px;
+ padding: 50px;
+ 
 }
+
