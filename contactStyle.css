@@ -13,7 +13,7 @@ body {
 
 .head1 {
  padding: 40px;
- position: relative; top: 400px;
+ position: relative; top: 300px;
  position: relative; left: 70px;
  width: auto;
 }
@@ -27,11 +27,12 @@ h1{
 
 .container {
  padding: 40px;
+ padding-right: 40px;
  height: auto;
  width: 100%;
  display: inline-flex;
  position: relative; top: 250px;
- justify-self: center;
+ justify-content: center;
  align-items: center;
 }
 
@@ -116,10 +117,11 @@ iframe {
 
 .footer-card {
  display: inline-flex;
- height: 200px;
+ justify-content: space-around;
+ height: 100px;
  width: 100%;
  background-color: white;
- position: relative; bottom: -310px;
+ position: relative; bottom: -340px;
  padding: 50px;
  
 }
