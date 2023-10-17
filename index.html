@@ -17,9 +17,9 @@
             <img src="images/BOWLogo.png" alt="BOW Logo" title="bowLogo" width="20%">
             <!-- <h2>BARBECUE ON WHEELS</h2> -->
             <div id="links">
-                <a href="#">ABOUT US</a> |
-                <a href="#">MENU</a> |
-                <a href="#">CONTACT US</a> 
+                <a href="#" class="navLink">ABOUT US</a> 
+                <a href="#" class="navLink">MENU</a> 
+                <a href="#" class="navLink">CONTACT US</a> 
             </div>
             <a href="javascript:void(0);" class="icon" onclick="mobileDropdown()">
                 <i class="fa fa-bars"></i>
@@ -43,26 +43,47 @@
    <style>
         body{
             margin: auto;
+            background-color: #F6F9F1;
         }
 
         .topNav{
             overflow: hidden;
             position: relative;
             padding: 1rem;
-            margin-bottom: 1rem;
+            background-color: #EFF1E4;
         }
 
-        #links{
+        .topNav #links{
             display: hidden;
-            margin-top: 1rem;
         }
+
+        .navLink{
+            margin-top: 1rem;
+            margin-left: 1rem;
+        }
+
 
         .topNav .icon {
-        display: block;
-        position: fixed;
-        right: 0;
-        top: 0;
-        padding: 10%;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 10%;
+        }
+
+        .topNav a{
+            display: block;
+            text-decoration: none;
+            color: #E96667;
+        }
+
+        article{
+            margin: 1rem;
+        }
+
+        footer{
+            text-align: center;
+            margin: 1rem;
         }
    </style>
 
