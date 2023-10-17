@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Menu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="grid-container">
+    
+<div class="grid-item1">
+        <h2>Menu</h2>
+    </div>
+
+
+<div class="grid-tem2">
+    <img src="https://www.bbqonwheels.com/wp-content/uploads/2011/03/grill1.png" alt=""><br>
+    
+    </div>
+
+
+<div class="grid-item3">
+    <p>Main information and different dishes</p>
+
+    </div>
+
+    <div class="grid-item4">
+        <p>Menu right side bar</p>
+    
+        </div>
+
+        <div class="grid-item5">
+            <p>Some extra information</p>
+        
+            </div>
+
+</div>
+
+
+<!-- css -->
+
+<style>
+
+.grid-container {
+    display: grid;
+    background-color: bisque;
+    border: #dedede 1px solid;
+    grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'footer footer footer footer footer footer';
+    padding: 10px;
+    gap: 10px;
+  }
+
+.grid-item1 {
+  grid-area: header;
+  border: 10px;
+  text-align: center;
+}
+
+.grid-item2 {
+  grid-area: menu;
+}
+
+.grid-item3 {
+    display: inline-block;  
+    padding: 20px 20px 20px 0;
+    text-align: center;
+}
+
+.grid-item4 { 
+    grid-area: right; 
+    margin: 35px 0 0 0;
+    display: inline-block;
+    color: #8b8a8b;
+}
+
+.grid-item5 { 
+  grid-area: footer; 
+}
+
+img {
+  width: 200px;
+  
+}
+
+</style>
+    
+</body>
+</html>
