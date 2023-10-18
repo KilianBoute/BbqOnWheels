@@ -37,25 +37,36 @@ h1{
 form {
  width: auto;
  padding: 20px;
- justify-self: center;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 40px;
+ justify-self:center;
  align-items: center;
 }
 
 input {
- padding: 20px;
- width: 300px;
+ /* width: 300px;
  border: hidden;
  border-bottom: 2px solid #E96667;
  outline: none;
- background: none;
+ 
+
+
+ background-color: #EFF1E4; */
+
+ padding: 12px 20px;
+ margin: 8px 0;
  justify-content: center;
  align-items: center;
-
- background-color: #EFF1E4;
+ border-bottom: #E96667;
+ outline: none;
 }
 
-.input1, .input2, .input3{
- padding: 50px;
+
+.input2, .input3 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
 }
 
 #names {
@@ -67,36 +78,37 @@ input {
  width: 300px;
 }
 
-
-#phone {
- width: 20px;
- position: relative; left: 150px;
-}
+#Phone {
+  width: 300px;
+ 
+ }
 
 
 #Message {
  width: 640px;
- height: 30px;
- padding: 20px;
+
 }
 
 button {
- text-align: center;
+  width: 200px;
+  height: 55px;
+  border-radius: 100px;
+  border: none;
+  flex-direction: row;
+  background-color: #E96667;
+  color: beige;
+  text-align: center;
+  padding: 20px;
+ 
 }
 
 .send {
- width: 200px;
- height: 55px;
- border-radius: 100px;
- border: none;
- position: relative; left: 50px;
- background-color: #E96667;
- color: beige;
+
  
 }
 
 .maps-card {
- width: 25%;
+ width: 100%;
  padding: 20px;
  background-color: #EFF1E4;
  display: inline-flex;
@@ -131,20 +143,21 @@ iframe {
  background-color: rgb(240, 225, 197);
  }
 
- @media (max-width: 768px) {
+ /* @media (max-width: 800px) {
   .container {
     display: flex;
     flex-direction:column;
   }
   
   form, .maps-card {
-    width: 100%;
+    width: auto;
     max-width: none;
     flex-direction: column;
   }
   
   input, .input1, .input2, .input3, #names, #Email, #phone, #Message {
     width: 100%;
+    padding: 20px;
   }
 
   #phone {
@@ -154,6 +167,12 @@ iframe {
   .send {
     width: 100%;
     left: 0;
+    height: 55px;
+    border-radius: 100px;
+    border: none;
+    position: relative; left: 50px;
+    background-color: #E96667;
+    color: beige;
   }
 
   .maps-card {
@@ -167,4 +186,4 @@ iframe {
     padding: 10px;
     bottom: auto;
   }
-}
+} */
