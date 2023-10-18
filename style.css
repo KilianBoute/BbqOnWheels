@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height: 100vh;
+    position: relative;
+}
+
+header::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./foodtruck2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+header::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    background-size: cover;
+    background-color: black;
+    background-position: bottom;
+}
+
+.navbar{
+    color: #fff;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li{
+    padding: 8px 12px 
+}
+
+.navbar ul li a{
+    z-index: 2;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+
+#intro{
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-left{
+    height: 300px;
+    position: relative;
+}
+
+.intro-left img{
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.intro-right{
+    width: 50%;
+}
+
+.intro-heading{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro-par{
+    margin-bottom: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkseagreen;
+}
+
+.btn:hover::after{
+    content: '';
+    height: 4px;
+    position: absolute;
+    background-color: darkseagreen;
+    left: 0;
+    bottom: -10px;
+    animation: width;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    border-radius: 5px;
+}
+
+@keyframes width{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+#mission{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.heading{
+    margin: 1rem;
+    text-align: center;
+}
+
+.par{
+    margin: 1rem auto;
+}
+
+.num-container{
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.num-item{
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    color: darkseagreen;
+    font-weight: bold;
+}
+
+#goal{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.goal-left{
+    width: 60%;
+    line-height: 2rem;
+}
+
+.goal-left h2{
+    font-size: 2.4rem;
+}
+
+.goal-left p{
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.goal-left ul{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.goal-left ul li::before{
+    line-height: 1.5rem;
+    content: '✓';
+    color: darkseagreen;
+    margin-right: 3px;
+}
+
+.goal-right{
+    position: relative;
+    width: 35%;
+}
+
+.goal-right img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    filter: drop-shadow(3px 4px 5px black);
+    transition: all 0.2s linear;
+}
+
+.goal-right img:hover{
+    transform: translate(-5px);
+    filter: drop-shadow(8px 9px 10px black);
+}
+
+#our-team{
+    width: 80%;
+    margin: 4rem auto 1rem;
+}
+
+#our-team h2{
+    text-align: center;
+    margin: 1rem auto 4rem;
+}
+
+#our-team h2::after{
+    content: '';
+    height: 4px;
+    margin: 0 auto;
+    text-align: center;
+    width: 15%;
+    background-color: darkseagreen;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    border-radius: 5px;
+    transform: translate(-50%);
+}
+
+.teamcontainer{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.team-item h5{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.team-item span{
+    margin-top: 0.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkseagreen;
+}
+
+.team-item img{
+    width: 80px;
+}
+
+footer{
+    padding: 1rem 0;
+    text-align: center;
+}
