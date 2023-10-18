@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="nav.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
 
+  <header class="">
+    <nav class="topNav">
+        <a href="index.html" class="logo"><img src="images/BOWLogo.png" alt="BOW Logo" title="bowLogo"><h3>BARBECUE ON WHEELS</h3></a>
+        <ul id="links">
+            <li><a href="aboutus.html" class="navLink">ABOUT US</a></li> 
+            <li><a href="Menu.html" class="navLink">MENU</a></li> 
+            <li><a href="contact.html" class="navLink">CONTACT</a></li>  
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="mobileDropdown()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+</header>
 
+<!-- img parallax -->
+
+<div class="parallax" id="imgFoodTruck">
+  <h1 class="welcome">
+      MENU
+  </h1>
+ </div>
+
+<!-- end parallax -->
 
 <!--  
 
@@ -55,9 +79,9 @@
 
 <div class="grid-container">
     
-<div class="grid-item1">
+<!-- <div class="grid-item1"> 
         <h2>Menu picture in background?</h2>
-    </div>
+    </div>-->
 
 
 <div class="grid-item2">
@@ -150,54 +174,10 @@
 
 
 <!-- css -->
-<!--  
-<style>
 
-.grid-container {
-    display: grid;
-    background-color: bisque;
-    border: #dedede 1px solid;
-    grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'footer footer footer footer footer footer';
-    padding: 10px;
-    gap: 10px;
-  }
+<footer>
 
-.grid-item1 {
-  grid-area: header;
-  border: 10px;
-  text-align: center;
-}
+</footer>
 
-.grid-item2 {
-  grid-area: menu;
-}
-
-.grid-item3 {
-    display: inline-block;  
-    padding: 20px 20px 20px 0;
-    text-align: center;
-}
-
-.grid-item4 { 
-    grid-area: right; 
-    margin: 35px 0 0 0;
-    display: inline-block;
-    color: #8b8a8b;
-}
-
-.grid-item5 { 
-  grid-area: footer; 
-}
-
-img {
-  width: 200px;
-  
-}
-
-</style>
-   --> 
 </body>
 </html>
