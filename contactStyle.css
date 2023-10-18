@@ -6,7 +6,7 @@
 
 body {
   margin: auto;
-  background-color: #eff1e4;
+  background-color: #161615e9;
   font-family: 'Roboto', sans-serif;
   font-weight: none;
 }
@@ -31,7 +31,7 @@ body {
   flex-direction:row;
   justify-content:space-around;
   align-items: center;
-  background-color: #b2cc1f;
+  background-color: #e9666613;
 }
 
 .contact-info form {
@@ -125,7 +125,7 @@ button {
 }
 
 
- @media (max-width: 800px) {
+ @media (max-width: 1019px) {
   .container {
     display: flex;
     flex-direction:column;
@@ -146,17 +146,16 @@ button {
     flex-direction: column;
   } */
   
-  input, .input1, .input2, .input3, #names, #Email, #phone, #Message {
+  input, .input1, .input2, .input3, .input4, #names, #Email, #Phone, #Message {
     width: 100%;
-    padding: 20px;
-  }
+    padding: 12px 20px;
+    margin: 8px 0;
 
-  #phone {
-    left: 0;
   }
 
   .send {
     width: 100%;
+    min-width: -1px;
     left: 0;
     height: 55px;
     border-radius: 100px;
