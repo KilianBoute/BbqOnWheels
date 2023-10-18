@@ -1,7 +1,8 @@
 /* 1st half */
+ 
 .grid-container {
     display: grid;
-    background-color: bisque;
+    background-color: rgb(102, 7, 7);
     border: #dedede 1px solid;
     grid-template-areas:
     'header header header'
@@ -19,14 +20,12 @@
 
 .grid-item2 {
   grid-area: menu;
-  border: 1px solid black;
   text-align: center;
 }
 
 .grid-item3 { 
     grid-area: main;
     text-align: center;
-    border: 1px solid black;
 }
 
 .grid-item4 { 
@@ -47,6 +46,7 @@ img {
 }
 
 /* 2nd half */
+/* 
 .picgrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -70,7 +70,7 @@ img {
     grid-column-end: span 2;
     grid-row-end: span 2;
 }
-
+ */
 /* pic carousel */
 
 .carousel {
