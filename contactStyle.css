@@ -124,6 +124,11 @@ button {
  padding: 50px;
 }
 
+a {
+  text-decoration: none;
+  color:black
+}
+
 
  @media (max-width: 1019px) {
   .container {
