@@ -29,8 +29,18 @@ body {
     align-items: center;
 }
 
+.parallax .welcome {
+    color: white;
+    font-size: 15vw;
+    text-shadow: -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
 hr {
     width: 80%;
     margin: auto;
     margin-bottom: 1rem;
 }
+

@@ -14,13 +14,6 @@ footer {
 
 .parallax{
     background-image: url("images/homePlaceholder.png");
+    padding-top: 50px;
 }
 
-.parallax .welcome {
-    color: white;
-    font-size: 15vw;
-    text-shadow: -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-}
