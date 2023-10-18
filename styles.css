@@ -26,8 +26,8 @@ body{
     display: none;
 }
 
-.topNav #links{
-    display: hidden;
+#links{
+    display: none;
     list-style-type: none;
     padding-left: 0;
 }
@@ -60,6 +60,16 @@ body{
 
 article{
     margin: 1rem;
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+    margin: 1rem, auto;
+}
+
+#imgFoodTruck{
+    box-shadow: 0 2px 10px -1px rgb(210, 210, 169), 0 4px 20px -2px rgb(154, 77, 77);
 }
 
 footer{
@@ -84,7 +94,6 @@ footer{
         margin-right: auto;
     }
 
-
     .topNav img{
         margin: 0;
         width: 10%;
@@ -98,7 +107,7 @@ footer{
     }
 
     .topNav #links{
-        display: flex;
+        display: flex !important;
         text-align: right;
         margin-top: 1rem;
         order: 1;
