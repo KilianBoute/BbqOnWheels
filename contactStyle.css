@@ -1,60 +1,88 @@
 * {
- margin: 0;
- padding: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
- height: 100%;
- width: 100%;
- background: #EFF1E4;
- font-family: Arial, Helvetica, sans-serif;
- font: 25px;
+  margin: auto;
+  background-color: #eff1e4;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo{
- display: flex;
- flex-direction: row;
- align-content: flex-start;
+/* .topNav {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0;
 }
+
+.topNav .logo {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  order: 0;
+  margin-right: auto;
+}
+
+.topNav img {
+  margin: 0;
+  width: 10%;
+}
+
+.topNav h3 {
+  display: block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.topNav #links {
+  display: flex;
+  text-align: right;
+  list-style-type: none;
+
+  margin-top: 1rem;
+  order: 1;
+}
+
+.topNav .icon {
+  display: none;
+}
+
+.topNav a {
+  display: block;
+  text-decoration: none;
+  color: #e96667;
+} */
+
 .container {
  width: 100%;
-  display: flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items: center;
+ display: flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items: center;
 }
-
 
 .head1 {
  padding: 40px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: start;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: start;
  width: auto;
  color: #E96667;
 }
 
 h1{
  align-items: center;
- 
 }
-
-
-
 
 form {
  width: auto;
  padding: 20px;
  justify-self: center;
  align-items: center;
-
 }
-
-.page {
- display: flex;
-}
-
 
 input {
  padding: 20px;
@@ -66,7 +94,7 @@ input {
  justify-content: center;
  align-items: center;
 
- background-color: bisque;
+ background-color: #EFF1E4;
 }
 
 .input1, .input2, .input3{
@@ -134,15 +162,13 @@ iframe {
  color: #E96667;
  position: relative; bottom: -340px;
  padding: 50px;
- 
 }
 
 .contact-info {
-   width: 100%;
-   display: flex;
-   flex-direction:row;
-   justify-content:center;
-   align-items: center;
-   background-color: rgb(239, 198, 124);
-
+ width: 100%;
+ display: flex;
+ flex-direction:row;
+ justify-content:center;
+ align-items: center;
+ background-color: rgb(240, 225, 197);
  }
