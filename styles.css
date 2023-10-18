@@ -16,7 +16,8 @@ article{
 
 hr{
     width: 80%;
-    margin: 1rem, auto;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 #imgFoodTruck{
@@ -26,5 +27,29 @@ hr{
 footer{
     text-align: center;
     margin: 1rem;
+}
+
+.parallax {
+    background-image: url("images/homePlaceholder.png");
+  
+    min-height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax .welcome{
+    color: white;
+    font-size: 75px;
+    text-shadow:  -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
