@@ -37,6 +37,7 @@ footer {
     position: absolute;
     opacity: 0;
     overflow: hidden;
+    height: 100px;
 }
 
 .review-author{

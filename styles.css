@@ -8,6 +8,11 @@
     src: url('fonts/Roboto/Roboto-Bold.ttf');
 } 
 
+@font-face{
+    font-family: "RobotoItalic";
+    src: url('fonts/Roboto/Roboto-LightItalic.ttf');
+} 
+
 @font-face {
     font-family: "Baskerville";
     src: url('fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf');
@@ -27,6 +32,10 @@ body {
 
 b{
     font-family: "RobotoBold";
+}
+
+i{
+    font-family: "RobotoItalic";
 }
 
 .parallax {
