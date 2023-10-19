@@ -17,7 +17,7 @@ body {
   
 .grid-item2 {
   grid-area: menu;
-  text-align: center;
+  text-align: center;  
 }
 
 .grid-item3 { 
@@ -34,19 +34,18 @@ img {
 
 .parallax {
   background-image: url("images/homePlaceholder.png");
-
   min-height: 500px;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* end parallax */
+
+
 
 /* tablet phone */
 @media screen and (max-width: 468px)
