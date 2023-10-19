@@ -21,9 +21,11 @@ body {
 }
 
 .head1 {
-  padding: 40px;
-  width: auto;
-  color: #E96667;
+  font-family: "Baskerville";
+  color: white;
+  font-size: 10vw;
+  text-shadow: -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 
 .contact-info {
@@ -151,6 +153,13 @@ a {
   font-weight: none;
   color:rgb(255, 255, 255);
 }
+
+.page-footer {
+  text-align: center;
+  margin: 1rem;
+  
+}
+
 
  @media (max-width: 980px) {
   .container {
