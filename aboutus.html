@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <!----------header section---->
+    <!----------old header section----
     <header>
         <nav class="navbar">
             <h2> Bbq On Wheels </h2>
@@ -18,18 +18,52 @@
                 <li><a href="#"> About us </a></li>
                 <li><a href="#"> Contact </a></li>
             </ul>
+            <ul id="hamBurger">
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+            <ul class="responsive">
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Menu </a></li>
+                <li><a href="#"> About us </a></li>
+                <li><a href="#"> Contact </a></li>
+            </ul>
         </nav>
     </header>
-    <!-------header section end----->
+    ---- old header section end----->
 
+    <!------new header section------>
+    <header class="">
+        <nav class="topNav">
+            <a href="index.html" class="logo"><img src="BOWLogo.png" alt="BOW Logo" title="bowLogo"><h3>BARBECUE ON WHEELS</h3></a>
+            <ul id="links">
+                <li><a href="aboutus.html" class="navLink">ABOUT US</a></li> 
+                <li><a href="Menu.html" class="navLink">MENU</a></li> 
+                <li><a href="contact.html" class="navLink">CONTACT</a></li>  
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="mobileDropdown()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <!--------new header section end-->
+
+
+    <div class="parallax" id="imgFoodTruck">
+        <span class="welcome">
+            WELCOME
+        </span>
+       </div>
     <!---------intro section------>
     <section id="intro">
         <div class="intro-left">
             <img src="bbqfamily.jpg" alt="image of a family doing a bbq">
         </div>
         <div class="intro-right">
-            <h2 class="intro-heading">This is a title</h2>
-            <p class="intro-par">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, placeat. Iusto laudantium quae praesentium voluptates rerum sint doloribus dignissimos est, nisi voluptas architecto possimus velit, quia fugit et voluptatibus dolores.</p>
+            <h2 class="intro-heading">Come discover our delicious food</h2>
+            <p class="intro-par">Indulge your taste buds with the irresistible flavors of Bbq On Wheels. 
+                Our menu is a treasure trove of smoky delights, from savory ribs to mouthwatering brisket. 
+                Discover your new BBQ obsession today!
+            </p>
             <a href="" class="btn">Our menu</a>
         </div>
     </section>
@@ -37,8 +71,12 @@
 
     <!------mision section------->
     <section id="mission">
-        <h2 class="heading">This is another title</h2>
-        <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, magnam. Repellendus ratione eligendi minima odit sapiente ducimus consequatur ullam sint officia. Beatae, quidem. Perspiciatis porro culpa laboriosam facere explicabo ipsa?</p>
+        <h2 class="heading">Happy Customers, Eco-Friendly Delights</h2>
+        <p class="par">At Bbq On Wheels, our top priority is ensuring your satisfaction. 
+            We take immense pride in the smiles of our happy customers, 
+            who keep coming back for the unbeatable combination of eco-friendly practices and the most delicious BBQ in town. We are committed to not only satisfying your cravings but also nurturing a greener planet, making your dining experience both fulfilling and environmentally responsible. 
+            Join us in our mission to savor great flavors, make a positive impact, and enjoy the best of both worlds
+        !</p>
         <div class="num-container">
             <div class="num-item"><img src="icons8-happy-50.png" alt="happy smileyface" class="icon"><br><span>2,303 <br>Happy customers</span></div>
             <div class="num-item"><img src="icons8-ecological-64.png" alt="eco friendly icon" class="icon"><br><span>100% <br>Eco-friendly</span></div>
@@ -51,11 +89,11 @@
     <section id="goal">
         <div class="goal-left">
             <h2>Our goal</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta obcaecati et laboriosam harum animi nobis odit dolore nostrum dolorum delectus excepturi, natus fuga saepe, alias illo itaque cupiditate. Ex, placeat!</p>
+            <p>At Bbq On Wheels, our mission is to provide the most mouthwatering BBQ experience while promoting environmental responsibility.</p>
             <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Sourcing locally for fresher, sustainable ingredients</li>
+                <li>Reducing waste through eco-friendly packaging</li>
+                <li>Contributing to a greener future one BBQ plate at a time</li>
             </ul>
             <a href="" class="btn">contact us</a>
         </div>
@@ -70,17 +108,17 @@
         <h2>Our member</h2>
         <div class="teamcontainer">
             <div class="team-item">
-                <img src="icons8-happy-50.png" alt="">
+                <img src="istockphoto-1027265554-1024x1024.jpg" alt="">
                 <h5 class="member-name">John smith</h5>
                 <span class="role">cook</span>
             </div>
             <div class="team-item">
-                <img src="icons8-happy-50.png" alt="">
+                <img src="istockphoto-817517212-1024x1024.jpg" alt="">
                 <h5 class="member-name">John Doe</h5>
                 <span class="role">CEO</span>
             </div>
             <div class="team-item">
-                <img src="icons8-happy-50.png" alt="">
+                <img src="istockphoto-1499926490-1024x1024.jpg" alt="">
                 <h5 class="member-name">Jane Doe</h5>
                 <span class="role">Manager</span>
             </div>
