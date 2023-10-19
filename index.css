@@ -17,3 +17,71 @@ footer {
     padding-top: 50px;
 }
 
+.reviewContainer{
+    position: relative;
+}
+
+.reviews{
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    margin: auto;
+}
+
+.review-open:checked + .review-item{
+    position: static;
+    opacity: 100;
+}
+
+.review-item{
+    position: absolute;
+    opacity: 0;
+}
+
+.review-author{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-author p{
+    margin-top: auto;
+    margin-left: 1rem;
+}
+
+.indicators{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.indicators li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.indicator-bullet{
+    font-size: 3rem;
+    display: block;
+}
+
+.indicator-bullet:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.review-img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+#review-1:checked ~ .indicators li:nth-child(1), 
+#review-2:checked ~ .indicators li:nth-child(2), 
+#review-3:checked ~ .indicators li:nth-child(3){
+    opacity: 50%;
+}
+
