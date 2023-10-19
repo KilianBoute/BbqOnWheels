@@ -120,7 +120,7 @@ button {
  align-content: center;
  height: 200px;
  width: 100%;
- background-color: #e9666668;
+ background-color: #e9666651;
  color: #E96667;
  padding: 50px;
  gap: 15px;
@@ -151,10 +151,6 @@ a {
   text-decoration: none;
   font-weight: none;
   color:rgb(255, 255, 255);
-}
-
-input:active {
-
 }
 
  @media (max-width: 1019px) {
@@ -223,12 +219,6 @@ input:active {
     align-content: center;
   }
   
-  /* a {
-    text-decoration: none;
-    font-weight: none;
-    color:rgb(255, 255, 255)
-  }
-   */
-
+ 
 
 }
