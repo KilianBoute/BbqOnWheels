@@ -24,7 +24,7 @@ footer {
 .reviews{
     position: relative;
     overflow: hidden;
-    width: 60%;
+  
     margin: auto;
 }
 
@@ -36,6 +36,7 @@ footer {
 .review-item{
     position: absolute;
     opacity: 0;
+    overflow: hidden;
 }
 
 .review-author{
@@ -56,6 +57,7 @@ footer {
     display: inline-block;
     margin: 0;
     padding: 0;
+    z-index: 50;
 }
 
 .indicators li{
@@ -74,7 +76,7 @@ footer {
 }
 
 .review-img{
-    width: 10%;
+    width: 7vw;
     border-radius: 50%;
 }
 
