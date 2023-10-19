@@ -107,7 +107,7 @@ button {
   border: none;
   flex-direction: row;
   background-color: #E96667;
-  color: beige;
+  color: white;
   text-align: center;
   padding: 20px;
  
@@ -131,12 +131,9 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
 }
-/* .Adress img, .Phone img , .email img  {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-} */
+
 
 img {
   width: 50px;
@@ -219,6 +216,5 @@ a {
     align-content: center;
   }
   
- 
 
 }
