@@ -17,6 +17,7 @@ body {
  flex-direction:column;
  justify-content:center;
  align-items: center;
+
 }
 
 .head1 {
@@ -31,7 +32,8 @@ body {
   flex-direction:row;
   justify-content:space-around;
   align-items: center;
-  background-color: #e9666613;
+  background-color: #161615e9;
+  border-bottom:solid 1px #E96667;
 }
 
 .contact-info form {
@@ -120,10 +122,10 @@ button {
  align-content: center;
  height: 200px;
  width: 100%;
- background-color: #e9666651;
+ background-color: #161615e9;
  color: #E96667;
  padding: 50px;
- gap: 15px;
+ 
 }
 .flex-center{
   width: 100%;
@@ -134,8 +136,8 @@ button {
   margin-bottom: 15px;
 }
 
-
-img {
+ 
+.Adress-icon, .phone-icon, .email-icon {
   width: 50px;
   height: 50px;
   display: flex;
@@ -150,7 +152,7 @@ a {
   color:rgb(255, 255, 255);
 }
 
- @media (max-width: 1019px) {
+ @media (max-width: 980px) {
   .container {
     display: flex;
     flex-direction:column;
@@ -168,9 +170,8 @@ a {
   
   input, .input1, .input2, .input3, .input4, #names, #Email, #Phone, #Message {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-
+    padding: 5px 10px;
+    margin: 4px 0;
   }
 
   .send {
@@ -195,26 +196,25 @@ a {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    bottom: auto;
+    /* bottom: auto; */
     background-color: #e9666613;
+    /* margin-top: 20px; */
   }
-/* 
-  .Adress , .Phone  , .email  {
+
+  .Adress-icon, .phone-icon, .email-icon {
+    visibility: hidden;
+  }
+
+  .flex-center{
     width: 100%;
     display: flex;
-    flex-direction: col;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+
   }
-   */
-  img {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-content: center;
-  }
+
   
+
 
 }
