@@ -27,8 +27,8 @@
 }
 
 .navLink:hover{
-    text-shadow: 0px -2px 4px #fec4c4, 0px -2px 10px rgb(193, 90, 86), 0px -10px 20px        
-     rgb(238, 255, 0), 0px -20px 40px rgb(255, 0, 0);
+    text-shadow: 0px -2px 4px #740000, 0px -2px 10px rgb(193, 90, 86), 0px -6px 15px rgb(188, 53, 48), 
+    0px -10px 20px rgb(238, 255, 0), 0px -20px 40px rgb(255, 0, 0);
 }
 
 

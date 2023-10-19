@@ -1,7 +1,17 @@
-/* @font-face{
-    font-family: "roboto-regular";
-    src: src('fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf');
-} */
+@font-face{
+    font-family: "RobotoReg";
+    src: url('fonts/Roboto/Roboto-Regular.ttf');
+} 
+
+@font-face{
+    font-family: "RobotoBold";
+    src: url('fonts/Roboto/Roboto-Bold.ttf');
+} 
+
+@font-face {
+    font-family: "Baskerville";
+    src: url('fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf');
+}
 
 * {
     box-sizing: border-box;
@@ -11,9 +21,12 @@
 
 body {
     margin: auto;
-    /* background-color: #F6F9F1; */
     background-color: #EFF1E4;
-    /* font-family: "roboto-regular"; */
+    font-family: "RobotoReg";
+}
+
+b{
+    font-family: "RobotoBold";
 }
 
 .parallax {
@@ -30,8 +43,9 @@ body {
 }
 
 .parallax .welcome {
+    font-family: "Baskerville";
     color: white;
-    font-size: 15vw;
+    font-size: 10vw;
     text-shadow: -1px 0 #000,
         1px -1px 0 #000,
         -1px 1px 0 #000,
