@@ -25,10 +25,6 @@ body {
   font-family: "RobotoReg";
 }
 
-.topNav {
-  height: 88px;
-}
-
 #links {
 padding-bottom: 16px;
 }
@@ -46,15 +42,14 @@ h3 {
  flex-direction:column;
  justify-content:center;
  align-items: center;
-
 }
 
 .head1 {
   font-family: "Baskerville";
-    color: white;
-    width: 100%;
-    font-size: 10vw;
-    text-shadow: -1px 0 #000,
+  color: white;
+  width: 100%;
+  font-size: 10vw;
+  text-shadow: -1px 0 #000,
         1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000;
@@ -92,11 +87,9 @@ h3 {
 
 .contact-info .maps-card {
   padding: 20px;
-  /* background-color: #EFF1E4; */
   display: inline-flex;
   justify-content: center;
   align-items: center;
-
   width: auto 450px;
   height: auto 500px;
 }
@@ -217,7 +210,6 @@ button:hover {
   /* margin: 1rem; */
   background-color: #161615e9;
   color: #E96667;
-  
 }
 
 
