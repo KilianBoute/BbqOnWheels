@@ -39,6 +39,8 @@ i{
 }
 
 .parallax {
+    background-image: url("images/homePlaceholder.png");
+
     height: 400px;
 
     background-attachment: fixed;
