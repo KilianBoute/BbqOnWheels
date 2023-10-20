@@ -25,6 +25,13 @@ body {
   font-family: "RobotoReg";
 }
 
+.topNav {
+  height: 88px;
+}
+
+#links {
+padding-bottom: 16px;
+}
 
 h3 {
   font-family: "RobotoReg";
@@ -152,13 +159,14 @@ button {
 }
 
 button:hover {
-    color: #e65653;
-    left: 0;
-    bottom: -10px;
-    animation: width;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-   border-bottom: #e65653;
+  color: #e65653;
+  left: 0;
+  bottom: -10px;
+  animation: width;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  background-color: #e9666692;
+  border-bottom: solid 2px#e65653;
 }
 
 .under-card {
@@ -192,7 +200,13 @@ button:hover {
   align-content: center;
 }
 
-a {
+.flex-center a {
+  text-decoration: none;
+  font-weight: none;
+  color:rgb(255, 255, 255);
+}
+
+.a-link {
   text-decoration: none;
   font-weight: none;
   color:rgb(255, 255, 255);
@@ -200,7 +214,7 @@ a {
 
 .page-footer {
   text-align: center;
-  margin: 1rem;
+  /* margin: 1rem; */
   background-color: #161615e9;
   color: #E96667;
   
