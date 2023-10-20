@@ -25,8 +25,12 @@ body {
   font-family: "RobotoReg";
 }
 
-b{
-  font-family: "RobotoBold";
+
+h3 {
+  font-family: "RobotoReg";
+  font-size: 28px;
+  margin: 16px 0px 8px 16px;
+  font-weight: none;
 }
 
 .container {
@@ -36,13 +40,6 @@ b{
  justify-content:center;
  align-items: center;
 
-}
-
-h3 {
-  font-family:'Robotoreg';
-  font-size: 28px;
-  margin: 16px 0px 8px 16px;
-  font-weight: none;
 }
 
 .head1 {
@@ -154,6 +151,16 @@ button {
  
 }
 
+button:hover {
+    color: #e65653;
+    left: 0;
+    bottom: -10px;
+    animation: width;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+   border-bottom: #e65653;
+}
+
 .under-card {
  display: inline-flex;
  flex-direction: row;
@@ -191,11 +198,13 @@ a {
   color:rgb(255, 255, 255);
 }
 
-/* .page-footer {
+.page-footer {
   text-align: center;
   margin: 1rem;
+  background-color: #161615e9;
+  color: #E96667;
   
-} */
+}
 
 
  @media (max-width: 980px) {
