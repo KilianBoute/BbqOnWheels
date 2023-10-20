@@ -29,10 +29,6 @@ h3 {
         1px 1px 0 #000;
 }
 
-.parallax{
-  background-image: url("images/homePlaceholder.png");
-  padding-top: 50px;
-}
 
 #imgFoodTruck {
     box-shadow: 0 2px 10px -1px rgb(210, 210, 169), 0 4px 20px -2px rgb(154, 77, 77);
