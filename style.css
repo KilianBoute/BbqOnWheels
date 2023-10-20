@@ -150,6 +150,14 @@ hr {
     height: 100%;
     width: 80%;
     border-radius: 20px;
+    cursor: pointer;
+    filter: drop-shadow(-5px 4px 3px black);
+    transition: all 0.2s linear;
+}
+
+.intro-left img:hover{
+    transform: translate(5px);
+    filter: drop-shadow(-10px 9px 8px black);
 }
 
 .intro-right{
