@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: auto;
- 
-}
-
 .carousel {
   width: 50vw;
   margin: 1% 20% 1% 17%;
