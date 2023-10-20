@@ -308,7 +308,7 @@ hr {
     margin: 0 auto;
     text-align: center;
     width: 15%;
-    background-color: #e65653;
+    /* background-color: #e65653; */
     position: absolute;
     left: 50%;
     bottom: -10px;
