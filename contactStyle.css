@@ -152,13 +152,14 @@ button {
 }
 
 button:hover {
-    color: #e65653;
-    left: 0;
-    bottom: -10px;
-    animation: width;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-   border-bottom: #e65653;
+  color: #e65653;
+  left: 0;
+  bottom: -10px;
+  animation: width;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  background-color: #e9666692;
+  border-bottom: solid 2px#e65653;
 }
 
 .under-card {
