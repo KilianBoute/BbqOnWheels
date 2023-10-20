@@ -9,7 +9,7 @@ body {
 
 .carousel {
   width: 50vw;
-  margin: 0 50% 0 50%;
+  margin: 0 20% 0 17%;
 }
 
   .grid-container {  
@@ -22,12 +22,15 @@ body {
   
 .grid-item2 {
   grid-area: menu;
-  text-align: center;  
+  text-align: center;
+  background-image:url(./images/menu.jpg);
+  transform: scaleX(-1);
 }
 
 .grid-item3 { 
     grid-area: main;
     text-align: center;
+    background:url(./images/menu.jpg);
 }
 
 img {
