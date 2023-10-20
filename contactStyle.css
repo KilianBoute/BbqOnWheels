@@ -25,6 +25,16 @@ body {
   font-family: "RobotoReg";
 }
 
+.topNav {
+  height: 88px;
+}
+
+.links {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 
 h3 {
   font-family: "RobotoReg";
@@ -193,7 +203,13 @@ button:hover {
   align-content: center;
 }
 
-a {
+.flex-center a {
+  text-decoration: none;
+  font-weight: none;
+  color:rgb(255, 255, 255);
+}
+
+.a-link {
   text-decoration: none;
   font-weight: none;
   color:rgb(255, 255, 255);
