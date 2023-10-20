@@ -8,11 +8,6 @@ article {
     box-shadow: 0 2px 10px -1px rgb(210, 210, 169), 0 4px 20px -2px rgb(154, 77, 77);
 }
 
-footer {
-    text-align: center;
-    margin: 1rem;
-}
-
 .parallax{
     background-image: url("images/homePlaceholder.png");
     padding-top: 50px;
@@ -22,7 +17,7 @@ footer {
     position: relative;
     text-align: center;
     padding-top: 1rem;
-    box-shadow: 0 2px 10px -1px rgb(210, 210, 169), 0 4px 20px -2px rgb(154, 77, 77);
+    box-shadow: 0 3px 10px -1px rgb(210, 210, 169), 0 5px 20px -2px rgb(154, 77, 77);
 }
 
 .reviewContainer:after{
@@ -116,4 +111,6 @@ footer {
 #review-3:checked ~ .indicators li:nth-child(3){
     opacity: 50%;
 }
+
+
 

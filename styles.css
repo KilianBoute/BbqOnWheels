@@ -67,3 +67,13 @@ hr {
     margin-bottom: 1rem;
 }
 
+footer{
+    text-align: center;
+    background-color: #161615e9;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    color: #E96667;
+    padding-top: 1rem;
+    box-shadow: 0 0px 10px -1px rgb(210, 210, 169), 0 0px 20px -2px rgb(154, 77, 77);
+}
